@@ -10,7 +10,7 @@ var form;
 function setup() {
   engine = Engine.create();
   world = engine.world;
-  createCanvas(800,400);
+  createCanvas(displayWidth-20, displayHeight-30);
   player = new Player();
   form = new Form();
 }
